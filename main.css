@@ -12,13 +12,18 @@
 
 body {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
     padding: 0 10px;
     background-color: hsl(180, 100%, 97%);
     min-height: 100vh;
+}
+
+h1 {
+    font-size: 2.6rem;
+    color: hsl(0, 0%, 14%);
 }
 
 .wrappper {
@@ -118,3 +123,5 @@ body {
     /* user-select: none; */
     transform: scale(1.1);
 }
+
+footer {}
